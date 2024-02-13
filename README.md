@@ -1,2 +1,20 @@
 # conway1997
-Conway's Game of Life in Turbo Pascal and Assembler - A 1997 MS-DOS Interactive Demo
+This repo holds my 1997 project: an interactive Conway's Game of Life for MS-DOS, made with Turbo Pascal and assembler. It was all about making the simulation run fast while letting users interact with it in real-time, drawing cells and watching them evolve.
+
+I used Turbo Pascal for the structure and assembler for performance and dealing with graphics and mouse input. This combo let me push DOS to its limits, creating a Game of Life where you can see cells age in color and modify the board on the fly.
+
+## Running It
+This was made for old-school MS-DOS systems with VGA graphics and a mouse. Modern machines can't run it directly. You'll need a DOS emulator like DOSBox.
+
+## Why This Project
+It was my way of diving deep into assembler and seeing how far I could optimize and enhance the experience of a classic simulation on hardware that, at the time, was already a decade old.
+
+I was using an (Amstrad PC1512)[https://en.wikipedia.org/wiki/PC1512] with VGA graphics card and a mouse connected to the serial port.
+
+## Why is the naming in Spanish
+
+Because I didn't speak English back then. Sorry about that.
+
+---
+
+Hope you find it interesting or useful!
