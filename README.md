@@ -9,7 +9,7 @@ This was made for old-school MS-DOS systems with VGA graphics and a mouse. Moder
 ## Why This Project
 It was my way of diving deep into assembler and seeing how far I could optimize and enhance the experience of a classic simulation on hardware that, at the time, was already a decade old.
 
-I was using an (Amstrad PC1512)[https://en.wikipedia.org/wiki/PC1512] with VGA graphics card and a mouse connected to the serial port.
+I was using an [Amstrad PC1512](https://en.wikipedia.org/wiki/PC1512) with VGA graphics card and a mouse connected to the serial port.
 
 ## Why is the naming in Spanish
 
