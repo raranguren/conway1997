@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conway's Game of Life - 1997</title>
+    <style>
+        #jsdos{ width: 320px; }
+        @media (min-width: 640px) {
+            #jsdos { width: 640px; }
+        }
+        @media (min-width: 1280px) {
+            #jsdos { width: 1280px; }
+        }
+        @media (min-width: 2560px) {
+            #jsdos { width: 2560px; }
+        }
+        #instructions { width: fit-content; margin:auto}
+    </style>
+</head>
+<body>
+    <canvas id="jsdos"></canvas>
+    <div id="instructions">
+        <ol>
+            <li>🖱️<b>Left click</b>: Start and draw cells.</li>
+            <li>⌨️<b>Space bar</b>: Auto-size the world.</li>
+            <li>🖱️<b>Right click</b> + <b>Left click</b>: Advance time</li>
+        </ol>
+    </div>
+    <script src="https://js-dos.com/6.22/current/js-dos.js"></script>
+    <script defer>
+        var canvas = document.getElementById("jsdos");
+        canvas.addEventListener('contextmenu', (event) => event.preventDefault()); // the app uses right click
+
+        Dos(canvas, { 
+            wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js",
+        }).ready(function (fs, main) {
+            fs.extract("CONWAY.zip").then(function () {
+                main(["-c", "CONWAY.EXE"]);
+            });
+        });
+    </script>
+</body>
+</html>
