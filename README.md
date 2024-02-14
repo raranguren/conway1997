@@ -6,14 +6,16 @@ I used Turbo Pascal for the structure and assembler for performance and dealing 
 ## Running It
 This was made for old-school MS-DOS systems with VGA graphics and a mouse. Modern machines can't run it directly. You'll need a DOS emulator like DOSBox.
 
+I've hosted an emulation using JS-DOS in GitHub pages: [Emulation in browswer](https://raranguren.github.io/conway1997/)
+
 ## Why This Project
 It was my way of diving deep into assembler and seeing how far I could optimize and enhance the experience of a classic simulation on hardware that, at the time, was already a decade old.
 
 I was using an [Amstrad PC1512](https://en.wikipedia.org/wiki/PC1512) with VGA graphics card and a mouse connected to the serial port.
 
-## Why is the naming in Spanish
+## Why is the app in Spanish
 
-Because I didn't speak English back then. Sorry about that.
+Because I didn't speak English back then and wanted to keep the original as it is. The web version above has instructions in English, though.
 
 ---
 
