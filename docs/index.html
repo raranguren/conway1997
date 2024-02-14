@@ -21,8 +21,8 @@
     <div id="instructions">
         <ol>
             <li>🖱️<b>Left click</b>: Start and draw cells.</li>
-            <li>🖱️<b>Right click</b> + <b>Left click</b>: Advance time</li>
-            <li>⌨️<b>Space bar</b>: Auto-size the world.</li>
+            <li>🖱️<b>Right click</b> + <b>Left click</b>: Advance time.</li>
+            <li>⌨️<b>Space bar</b>: Auto-size the world. <b>Arrows</b> resize manually.</li>
         </ol>
     </div>
     <script src="https://js-dos.com/6.22/current/js-dos.js"></script>
@@ -34,7 +34,7 @@
             wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js",
         }).ready(function (fs, main) {
             fs.extract("CONWAY.zip").then(function () {
-                main(["-c", "CONWAY.EXE"]);
+                main(["-c", "CONWAY"]);
             });
         });
     </script>
