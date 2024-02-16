@@ -6,7 +6,10 @@ I used Turbo Pascal for the structure and assembler for performance and dealing 
 ## Running It
 This was made for old-school MS-DOS systems with VGA graphics and a mouse. Modern machines can't run it directly. You'll need a DOS emulator like DOSBox.
 
-I've hosted an emulation using JS-DOS in GitHub pages: [Emulation in browswer](https://raranguren.github.io/conway1997/)
+I've hosted an emulation using JS-DOS in GitHub pages:
+
+[![image](https://github.com/raranguren/conway1997/assets/20062469/ed698e3a-e737-49e0-8d3e-31c4d07e85bc)](https://raranguren.github.io/conway1997/)
+
 
 ## Why This Project
 It was my way of diving deep into assembler and seeing how far I could optimize and enhance the experience of a classic simulation on hardware that, at the time, was already a decade old.
