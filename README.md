@@ -8,7 +8,7 @@ This was made for old-school MS-DOS systems with VGA graphics and a mouse. Moder
 
 I've hosted an emulation using JS-DOS in GitHub pages:
 
-[![image](https://github.com/raranguren/conway1997/assets/20062469/ed698e3a-e737-49e0-8d3e-31c4d07e85bc)](https://raranguren.github.io/conway1997/)
+[![image](https://github.com/raranguren/conway1997/assets/20062469/06c3f9a1-acb6-4e72-9a6e-187060605edd)](https://raranguren.github.io/conway1997/)
 
 
 ## Why This Project
