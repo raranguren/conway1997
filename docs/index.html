@@ -3,6 +3,7 @@
 <head>
     <title>Conway's Game of Life - 1997</title>
     <style>
+        body { font-family: sans-serif;}
         #jsdos{ width: 320px; }
         @media (min-width: 640px) {
             #jsdos { width: 640px; }
@@ -20,9 +21,12 @@
     <canvas id="jsdos"></canvas>
     <div id="instructions">
         <ol>
-            <li>🖱️<b>Left click</b>: Start and draw cells.</li>
-            <li>🖱️<b>Right click</b> + <b>Left click</b>: Advance time.</li>
-            <li>⌨️<b>Space bar</b>: Auto-size the world. <b>Arrows</b> resize manually.</li>
+            <li>Hold <b>&#x1F5B1;&#xFE0E; Left click</b>, 
+                then press <b>&#x1F5B1;&#xFE0E; Right click</b> several times to awake random cells.</li>
+            <li>Hold <b>&#x1F5B1;&#xFE0E; Right click</b>, 
+                then press <b>&#x1F5B1;&#xFE0E; Left click</b> to start Conway's game of life simulation.</li>
+            <li>Use <b>&#x1F870;&#xFE0E; &#x1F871;&#xFE0E; &#x1F872;&#xFE0E; &#x1F873;&#xFE0E; Arrows</b> to resize the grid, 
+                or press <b>&#x2328;&#xFE0E; Space bar</b> to toggle auto-size.</li>
         </ol>
     </div>
     <script src="https://js-dos.com/6.22/current/js-dos.js"></script>
