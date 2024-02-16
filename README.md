@@ -1,5 +1,5 @@
 # conway1997
-This repo holds my 1997 project: an interactive Conway's Game of Life for MS-DOS, made with Turbo Pascal and assembler. It was all about making the simulation run fast while letting users interact with it in real-time, drawing cells and watching them evolve.
+This repo holds my 1997 project: an interactive [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) for MS-DOS, made with Turbo Pascal and assembler. It was all about making the simulation run fast while letting users interact with it in real-time, drawing cells and watching them evolve.
 
 I used Turbo Pascal for the structure and assembler for performance and dealing with graphics and mouse input. This combo let me push DOS to its limits, creating a Game of Life where you can see cells age in color and modify the board on the fly.
 
